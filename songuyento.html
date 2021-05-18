@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num= parseInt(prompt('nhap so'));
+     let count=0;
+        for ( let n = 2; count < num; n++) {
+            let i=2;
+            while (n % i != 0) {
+                i++;}
+
+                if (i == n){
+                    document.write(n);
+                    count++;
+            }
+                document.write('&nbsp');
+        }
+</script>
+</body>
+</html>
